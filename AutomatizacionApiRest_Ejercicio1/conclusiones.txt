@@ -1,0 +1,13 @@
+Las pruebas se realizaron con dos api una de creación de uuario y otra de inicio de sesión, se puede observar el tiempo
+de ejecución y encontrar errores o bugs en las apis, por ejemplo en la api de inicio de sesión al enviar los parámetros
+en la trama (usuario y contraseña) devuelve un mensaje de contraseña incorrecta pero al realizar el login desde la
+interfaz web el login es exitoso. Tampoco se realiza un control de códigos de errores, todos los códigos que devuelve
+es el 200
+
+La api de creación de usuario si realiza la creación correctamente y al querer crear un usuario que ya existe devuelve
+un mensaje de usuario existente.
+
+Con estas pruebas automatizadas podemos realizar un certificación más precisa de las apis que se va entregar, de igual
+manera el informe generado por karate tiene una interfaz web amigable con el usuario
+
+
